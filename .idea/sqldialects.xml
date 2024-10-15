@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/develop/alter_table.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/constraints.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/cti_with.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/events.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/functions.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/indexes.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/json.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/prepare.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/procedure.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/subqueries.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/transactions.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/triggers.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/develop/views.sql" dialect="MySQL" />
+  </component>
+</project>

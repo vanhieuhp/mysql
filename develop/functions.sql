@@ -134,3 +134,20 @@ SELECT COALESCE(NULL, 'Coursera', NULL, 'Database') as Result; -- The following 
 
 SELECT IFNULL(NULL, 'Coursera') as Result;
 SELECT NULLIF(15, 10); -- 10
+
+select * from orders;
+
+create function getTotalAmount(Cost DECIMAL(10,2))
+    returns DECIMAL(10,2) DETERMINISTIC
+BEGIN
+    if Cost > 1000 then
+        return Cost + 100;
+    else
+        return Cost + 50;
+    end if;
+end;
+
+
+select getTotalAmount(1500);
+DROP function getTotalAmount;
+
